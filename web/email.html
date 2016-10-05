@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Email Page</title>
+    <link href="styles/email.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+
+    <header>
+      <img class="pumpkin" src="images/pumpkin.gif" alt="" />
+      <h1>
+        The Halloween Store
+      </h1>
+      <h2>
+        For the little Goblin in all of us!
+      </h2>
+    </header>
+
+    <main>
+      <ul class="horizontalMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="slides/products/index.html">Product List</a></li>
+        <li><a href="personal.asp">Personal</a></li>
+        <li><a href="decorating_ideas.asp">Decorating Ideas</a></li>
+        <li><a class="active" href="email.html">Join Email</a></li>
+      </ul>
+
+      <aside>
+        <ul class="sideBar">
+          <li><a href="slides/products/Props/Props.html" title="Props">Props</a></li>
+          <li><a href="slides/products/Costumes/Costumes.html" title="Costumes">Costumes</a></li>
+          <li><a href="slides/products/Special_Effects/Special_Effects.html" title="Special_Effects">Special Effects</a></li>
+          <li><a href="slides/products/Masks/Masks.html" title="Masks">Masks</a></li>
+        </ul>
+      </aside>
+
+      <section>
+        <h3>Please enter the following information</h3>
+        <form action="subscribe.html" method="get">
+          <p><label id="firstNameLabel">First name: </label><input id="firstNameInput" name="firstName" type="text" autofocus required/></p>
+          <p><label id="lastNameLabel">Last name: </label><input id="lastNameInput" name="lastName" type="text" required/></p>
+          <p><label id="emailLabel">Email: </label><input id="emailInput" name="Email1" type="email" required/></p>
+          <p><label id="zipCodeLabel">Zip code: </label><input id="zipCodeInput" name="zipCode" type="text" pattern="[0-9]{5}" placeholder="22003"  /></p>
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer> 
+      &copy; 2016 Tyler Wilson
+    </footer>
+
+  </body>
+
+</html>
